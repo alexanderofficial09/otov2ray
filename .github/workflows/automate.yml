@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x'
 
       - name: Gerekli Paketleri Kur
-        run: pip install requests base64
+        run: pip install requests
 
       - name: Python Scriptini Çalıştır
         run: python script.py  # Burada kendi Python scriptini çalıştır
